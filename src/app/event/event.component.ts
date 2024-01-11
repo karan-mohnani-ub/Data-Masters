@@ -1,13 +1,14 @@
 import { Component } from '@angular/core';
 import { FormBuilder, FormControl, FormGroup } from '@angular/forms';
-import { HomeService } from './home.service';
+import { EventService } from './event.service';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-home',
-  templateUrl: './home.component.html',
-  styleUrls: ['./home.component.scss']
+  templateUrl: './event.component.html',
+  styleUrls: ['./event.component.scss']
 })
-export class HomeComponent {
+export class EventComponent {
   public form!: FormGroup;
   category = [
     { value: 'wedding', viewValue: 'Wedding' },
@@ -20,7 +21,7 @@ export class HomeComponent {
     { value: 'dance', viewValue: 'Dance' },
   ];
 
-  constructor(public fb: FormBuilder, public home: HomeService) { }
+  constructor(public fb: FormBuilder, public eventService: EventService, public router: Router) { }
 
   ngOnInit() {
     this.createForm();
@@ -39,7 +40,7 @@ export class HomeComponent {
   submit() {
     if (this.form.valid) {
       console.log(this.form.value);
-      this.home.getData().subscribe((data) => {
+      this.eventService.getData().subscribe((data) => {
         console.log(data);
       });
     }

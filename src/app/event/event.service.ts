@@ -4,7 +4,7 @@ import { HttpService } from 'src/service/http.service';
 @Injectable({
   providedIn: 'root'
 })
-export class HomeService {
+export class EventService {
 
   constructor(public http: HttpService) { }
 

@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { FormBuilder, FormControl, FormGroup } from '@angular/forms';
+import { HomeService } from './home.service';
 
 @Component({
   selector: 'app-home',
@@ -8,13 +9,18 @@ import { FormBuilder, FormControl, FormGroup } from '@angular/forms';
 })
 export class HomeComponent {
   public form!: FormGroup;
-  foods = [
-    { value: 'steak-0', viewValue: 'Steak' },
-    { value: 'pizza-1', viewValue: 'Pizza' },
-    { value: 'tacos-2', viewValue: 'Tacos' },
+  category = [
+    { value: 'wedding', viewValue: 'Wedding' },
+    { value: 'birthday', viewValue: 'Birthday' },
+    { value: 'dance', viewValue: 'Dance' },
+  ];
+  contact = [
+    { value: 'wedding', viewValue: 'Wedding' },
+    { value: 'birthday', viewValue: 'Birthday' },
+    { value: 'dance', viewValue: 'Dance' },
   ];
 
-  constructor(public fb: FormBuilder) { }
+  constructor(public fb: FormBuilder, public home: HomeService) { }
 
   ngOnInit() {
     this.createForm();
@@ -28,5 +34,14 @@ export class HomeComponent {
       startDate: new FormControl(''),
       endDate: new FormControl(''),
     });
+  }
+
+  submit() {
+    if (this.form.valid) {
+      console.log(this.form.value);
+      this.home.getData().subscribe((data) => {
+        console.log(data);
+      });
+    }
   }
 }

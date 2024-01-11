@@ -21,8 +21,8 @@
       <mat-form-field class="example-form-field">
         <mat-label>Category</mat-label>
         <mat-select formControlName="category">
-          <mat-option *ngFor="let food of foods" [value]="food.value">{{
-            food.viewValue
+          <mat-option *ngFor="let item of category" [value]="item.value">{{
+            item.viewValue
           }}</mat-option>
         </mat-select>
       </mat-form-field>
@@ -30,8 +30,8 @@
       <mat-form-field class="example-form-field">
         <mat-label>Contact</mat-label>
         <mat-select formControlName="contact">
-          <mat-option *ngFor="let food of foods" [value]="food.value">{{
-            food.viewValue
+          <mat-option *ngFor="let item of contact" [value]="item.value">{{
+            item.viewValue
           }}</mat-option>
         </mat-select>
       </mat-form-field>
@@ -59,7 +59,7 @@
       </mat-form-field>
 
       <mat-card-actions align="end">
-        <button mat-button>SUBMIT</button>
+        <button mat-button (click)="submit()">SUBMIT</button>
       </mat-card-actions>
     </form>
   </mat-card>

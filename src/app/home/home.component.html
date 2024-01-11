@@ -1,0 +1,66 @@
+<div class="form-container">
+  <mat-card>
+    <mat-card-header>
+      <mat-card-title>FORM</mat-card-title>
+    </mat-card-header>
+    <form [formGroup]="form">
+      <mat-form-field class="example-form-field">
+        <mat-label>Event Name</mat-label>
+        <input matInput type="text" formControlName="eventName" />
+        <button
+          *ngIf="form.get('eventName')?.value"
+          matSuffix
+          mat-icon-button
+          aria-label="Clear"
+          (click)="form.get('eventName')?.value.setValue('')"
+        >
+          <mat-icon>close</mat-icon>
+        </button>
+      </mat-form-field>
+
+      <mat-form-field class="example-form-field">
+        <mat-label>Category</mat-label>
+        <mat-select formControlName="category">
+          <mat-option *ngFor="let food of foods" [value]="food.value">{{
+            food.viewValue
+          }}</mat-option>
+        </mat-select>
+      </mat-form-field>
+
+      <mat-form-field class="example-form-field">
+        <mat-label>Contact</mat-label>
+        <mat-select formControlName="contact">
+          <mat-option *ngFor="let food of foods" [value]="food.value">{{
+            food.viewValue
+          }}</mat-option>
+        </mat-select>
+      </mat-form-field>
+
+      <mat-form-field class="example-form-field">
+        <mat-label>Start Date</mat-label>
+        <input matInput [matDatepicker]="picker" formControlName="startDate" />
+        <mat-hint>MM/DD/YYYY</mat-hint>
+        <mat-datepicker-toggle
+          matIconSuffix
+          [for]="picker"
+        ></mat-datepicker-toggle>
+        <mat-datepicker #picker></mat-datepicker>
+      </mat-form-field>
+    
+      <mat-form-field class="example-form-field">
+        <mat-label>End Date</mat-label>
+        <input matInput [matDatepicker]="picker" formControlName="endDate" />
+        <mat-hint>MM/DD/YYYY</mat-hint>
+        <mat-datepicker-toggle
+          matIconSuffix
+          [for]="picker"
+        ></mat-datepicker-toggle>
+        <mat-datepicker #picker></mat-datepicker>
+      </mat-form-field>
+
+      <mat-card-actions align="end">
+        <button mat-button>SUBMIT</button>
+      </mat-card-actions>
+    </form>
+  </mat-card>
+</div>

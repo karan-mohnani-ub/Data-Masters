@@ -2,11 +2,13 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 50px;
 
   mat-card {
     width: 600px;
     padding: 20px;
+    background-color: #555555;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    color: #f2eeec;
 
     .example-form-field {
         margin: 10px;
@@ -15,4 +17,14 @@
   .example-form-field {
     width: 200px;
   }
+}
+.bg {
+  background-color: #f2eeec !important;
+  height: 100vh;
+}
+.momentus-tech-logo {
+  position: absolute;
+  width: 25%;
+  top: 50px;
+  left: 50px;
 }

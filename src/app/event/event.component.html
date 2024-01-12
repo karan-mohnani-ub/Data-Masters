@@ -1,7 +1,9 @@
-<div class="form-container">
+<div class="form-container bg">
+  <img src="assets/momentus_technologies.svg" alt="Momentus-Technologies"
+  class="momentus-tech-logo">
   <mat-card>
     <mat-card-header>
-      <mat-card-title>FORM</mat-card-title>
+      <mat-card-title>Create Event</mat-card-title>
     </mat-card-header>
     <form [formGroup]="form">
       <mat-form-field class="example-form-field">
@@ -59,8 +61,8 @@
       </mat-form-field>
 
       <mat-card-actions align="end">
-        <button mat-button (click)="router.navigateByUrl('')">BACK</button>
-        <button mat-button (click)="submit()">SUBMIT</button>
+        <button style="color: #f2eeec;" mat-button (click)="router.navigateByUrl('')">BACK</button>
+        <button style="color: #f2eeec;" mat-button (click)="submit()">SUBMIT</button>
       </mat-card-actions>
     </form>
   </mat-card>

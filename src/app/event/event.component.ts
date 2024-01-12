@@ -97,7 +97,10 @@ export class EventComponent {
       this.catalogueItems.push(item)
     }
     console.log(this.catalogueItems)
-
+    this.snackBar.openFromComponent(SnackbarComponent, {
+      duration: 3000,
+      verticalPosition: this.verticalPosition,
+    });
     // console.log(this.form)
     // if (this.form.valid) {
     //   console.log(this.form.value);
@@ -111,13 +114,17 @@ export class EventComponent {
     //     }
     //     console.log(this.catalogueItems)
     //   });
+    // this.snackBar.openFromComponent(SnackbarComponent, {
+    //   duration: 3000,
+    //   verticalPosition: this.verticalPosition,
+    // });
     // }
   }
 
   submit() {
     this.snackBar.openFromComponent(SnackbarComponent, {
       duration: 3000,
-      verticalPosition: this.verticalPosition
+      verticalPosition: this.verticalPosition,
     });
   }
 }

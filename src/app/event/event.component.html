@@ -9,7 +9,7 @@
       <mat-card-title>Create Event</mat-card-title>
     </mat-card-header>
     <form [formGroup]="form">
-      <mat-form-field class="example-form-field">
+      <mat-form-field>
         <mat-label>Event Name</mat-label>
         <input matInput type="text" formControlName="eventName" />
         <button
@@ -21,20 +21,24 @@
         >
           <mat-icon>close</mat-icon>
         </button>
-        <mat-error *ngIf="form.get('eventName')?.errors?.['required']">Event Name is required</mat-error>
+        <mat-error *ngIf="form.get('eventName')?.errors?.['required']"
+          >Event Name is required</mat-error
+        >
       </mat-form-field>
 
-      <mat-form-field class="example-form-field">
+      <mat-form-field>
         <mat-label>Category</mat-label>
         <mat-select formControlName="eventCategory">
           <mat-option *ngFor="let item of category" [value]="item.value">{{
             item.viewValue
           }}</mat-option>
         </mat-select>
-        <mat-error *ngIf="form.get('eventName')?.errors?.['required']">Event Name is required</mat-error>
+        <mat-error *ngIf="form.get('eventName')?.errors?.['required']"
+          >Event Name is required</mat-error
+        >
       </mat-form-field>
 
-      <mat-form-field class="example-form-field">
+      <mat-form-field>
         <mat-label>Contact</mat-label>
         <mat-select formControlName="contact">
           <mat-option *ngFor="let item of contact" [value]="item.value">{{
@@ -43,9 +47,13 @@
         </mat-select>
       </mat-form-field>
 
-      <mat-form-field class="example-form-field">
+      <mat-form-field>
         <mat-label>Start Date</mat-label>
-        <input matInput [matDatepicker]="startDatePicker" formControlName="startDate" />
+        <input
+          matInput
+          [matDatepicker]="startDatePicker"
+          formControlName="startDate"
+        />
         <mat-hint>MM/DD/YYYY</mat-hint>
         <mat-datepicker-toggle
           matIconSuffix
@@ -54,9 +62,13 @@
         <mat-datepicker #startDatePicker></mat-datepicker>
       </mat-form-field>
 
-      <mat-form-field class="example-form-field">
+      <mat-form-field>
         <mat-label>End Date</mat-label>
-        <input matInput [matDatepicker]="endDatePicker" formControlName="endDate" />
+        <input
+          matInput
+          [matDatepicker]="endDatePicker"
+          formControlName="endDate"
+        />
         <mat-hint>MM/DD/YYYY</mat-hint>
         <mat-datepicker-toggle
           matIconSuffix
@@ -69,10 +81,12 @@
       <div></div>
 
       <mat-card-actions align="end">
-        <button mat-button (click)="getSuggestions()">Get Catalog Suggestions</button>
+        <button mat-button (click)="getSuggestions()">
+          Get Catalog Suggestions
+        </button>
       </mat-card-actions>
 
-      <mat-form-field class="example-form-field" *ngIf="catalogueItems.length">
+      <mat-form-field *ngIf="catalogueItems.length">
         <mat-label>Catalogue Suggestions</mat-label>
         <mat-chip-grid
           #chipGrid

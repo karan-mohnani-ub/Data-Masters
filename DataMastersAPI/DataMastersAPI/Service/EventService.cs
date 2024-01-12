@@ -1,4 +1,4 @@
-﻿using DataMastersAPI.Model;
+using DataMastersAPI.Model;
 using DataMastersAPI.Repository.Interface;
 using DataMastersAPI.Service.Interface;
 

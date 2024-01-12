@@ -1,0 +1,10 @@
+﻿EventCategory,CatalogueItemName,UnitCost,UnitPrice,CatalogueType,ContactFirstName
+Christmas event,Pizza,50,100,Food,John
+Christmas event,Blue lagoon,100,150,Beverage,John
+Christmas event,Fries,20,50,Food,John
+New Year,Burger,65,112,Food,Alan
+New Year,Coke,25,40,Beverage,Alan
+New Year,Bloody mary,52,95,Beverage,Alice
+Birthday,Platter,159,220,Food,Alice
+Birthday,Paneer,70,100,Food,Jane
+Birthday,Noodles,40,75,Beverage,Jane

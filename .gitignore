@@ -40,3 +40,8 @@ testem.log
 # System files
 .DS_Store
 Thumbs.db
+DataMastersAPI/.vs/DataMastersAPI/FileContentIndex/2b3834d5-7c1d-442c-93b2-ef0f6d77559a.vsidx
+*.vsidx
+*.vsidx
+*.vsidx
+DataMastersAPI/.vs/DataMastersAPI/v17/.suo

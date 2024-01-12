@@ -48,3 +48,13 @@ D:\Repo\Data-Masters\DataMastersML\DataMastersMLWebApi\obj\Debug\net6.0\refint\D
 D:\Repo\Data-Masters\DataMastersML\DataMastersMLWebApi\obj\Debug\net6.0\DataMastersMLWebApi.pdb
 D:\Repo\Data-Masters\DataMastersML\DataMastersMLWebApi\obj\Debug\net6.0\DataMastersMLWebApi.genruntimeconfig.cache
 D:\Repo\Data-Masters\DataMastersML\DataMastersMLWebApi\obj\Debug\net6.0\ref\DataMastersMLWebApi.dll
+D:\Repo\Data-Masters\DataMastersML\DataMastersMLWebApi\bin\Debug\net6.0\Microsoft.ML.FastTree.dll
+D:\Repo\Data-Masters\DataMastersML\DataMastersMLWebApi\bin\Debug\net6.0\Microsoft.ML.LightGbm.dll
+D:\Repo\Data-Masters\DataMastersML\DataMastersMLWebApi\bin\Debug\net6.0\runtimes\linux-x64\native\lib_lightgbm.so
+D:\Repo\Data-Masters\DataMastersML\DataMastersMLWebApi\bin\Debug\net6.0\runtimes\osx-x64\native\lib_lightgbm.dylib
+D:\Repo\Data-Masters\DataMastersML\DataMastersMLWebApi\bin\Debug\net6.0\runtimes\win-x64\native\lib_lightgbm.dll
+D:\Repo\Data-Masters\DataMastersML\DataMastersMLWebApi\bin\Debug\net6.0\runtimes\win-x64\native\lightgbm.exe
+D:\Repo\Data-Masters\DataMastersML\DataMastersMLWebApi\bin\Debug\net6.0\runtimes\linux-x64\native\libFastTreeNative.so
+D:\Repo\Data-Masters\DataMastersML\DataMastersMLWebApi\bin\Debug\net6.0\runtimes\osx-x64\native\libFastTreeNative.dylib
+D:\Repo\Data-Masters\DataMastersML\DataMastersMLWebApi\bin\Debug\net6.0\runtimes\win-x64\native\FastTreeNative.dll
+D:\Repo\Data-Masters\DataMastersML\DataMastersMLWebApi\bin\Debug\net6.0\runtimes\win-x86\native\FastTreeNative.dll

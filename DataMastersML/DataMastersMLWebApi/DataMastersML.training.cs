@@ -5,6 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Microsoft.ML.Data;
+using Microsoft.ML.Trainers.LightGbm;
 using Microsoft.ML.Trainers;
 using Microsoft.ML.Transforms;
 using Microsoft.ML;
@@ -39,8 +40,7 @@ namespace DataMastersMLWebApi
                                     .Append(mlContext.Transforms.ReplaceMissingValues(new []{new InputOutputColumnPair(@"UnitCost", @"UnitCost"),new InputOutputColumnPair(@"UnitPrice", @"UnitPrice")}))      
                                     .Append(mlContext.Transforms.Concatenate(@"Features", new []{@"EventCategory",@"CatalogueType",@"ContactFirstName",@"UnitCost",@"UnitPrice"}))      
                                     .Append(mlContext.Transforms.Conversion.MapValueToKey(outputColumnName:@"CatalogueItemName",inputColumnName:@"CatalogueItemName"))      
-                                    .Append(mlContext.Transforms.NormalizeMinMax(@"Features", @"Features"))      
-                                    .Append(mlContext.MulticlassClassification.Trainers.SdcaMaximumEntropy(new SdcaMaximumEntropyMulticlassTrainer.Options(){L1Regularization=1F,L2Regularization=0.1F,LabelColumnName=@"CatalogueItemName",FeatureColumnName=@"Features"}))      
+                                    .Append(mlContext.MulticlassClassification.Trainers.LightGbm(new LightGbmMulticlassTrainer.Options(){NumberOfLeaves=4,NumberOfIterations=4,MinimumExampleCountPerLeaf=20,LearningRate=1,LabelColumnName=@"CatalogueItemName",FeatureColumnName=@"Features",ExampleWeightColumnName=null,Booster=new GradientBooster.Options(){SubsampleFraction=1,FeatureFraction=1,L1Regularization=2E-10,L2Regularization=1},MaximumBinCountPerFeature=255}))      
                                     .Append(mlContext.Transforms.Conversion.MapKeyToValue(outputColumnName:@"PredictedLabel",inputColumnName:@"PredictedLabel"));
 
             return pipeline;

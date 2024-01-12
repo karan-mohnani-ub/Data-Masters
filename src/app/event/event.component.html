@@ -21,11 +21,12 @@
         >
           <mat-icon>close</mat-icon>
         </button>
+        <!-- <mat-error *ngIf="form.get('eventName')?.errors">Please enter a valid email address</mat-error> -->
       </mat-form-field>
 
       <mat-form-field class="example-form-field">
         <mat-label>Category</mat-label>
-        <mat-select formControlName="category">
+        <mat-select formControlName="eventCategory">
           <mat-option *ngFor="let item of category" [value]="item.value">{{
             item.viewValue
           }}</mat-option>
@@ -70,7 +71,7 @@
         <button mat-button (click)="getSuggestions()">Get Catalog Suggestions</button>
       </mat-card-actions>
 
-      <mat-form-field class="example-form-field" *ngIf="catalogueItems">
+      <mat-form-field class="example-form-field" *ngIf="catalogueItems.length">
         <mat-label>Catalogue Suggestions</mat-label>
         <mat-chip-grid
           #chipGrid

@@ -5,11 +5,11 @@ import { HttpService } from 'src/service/http.service';
   providedIn: 'root'
 })
 export class EventService {
-  baseUrl = '';
+  url = 'https://funky-eternal-alien.ngrok-free.app/predict';
 
   constructor(public http: HttpService) { }
 
-  getCatalogueItemSuggestions() {
-    return this.http.get(this.baseUrl + '/predict');
+  getCatalogueItemSuggestions(body: any) {
+    return this.http.post(this.url, body);
   }
 }

@@ -1,14 +1,11 @@
-﻿using DataMastersAPI.Model;
+using DataMastersAPI.Model;
 using Microsoft.EntityFrameworkCore;
 
 namespace DataMastersAPI.Data
 {
 	public class DataMastersDbContext: DbContext
 	{
-        public DataMastersDbContext(DbContextOptions<DataMastersDbContext> options) : base(options)
-		{
-			
-        }
+    public DataMastersDbContext(DbContextOptions<DataMastersDbContext> options) : base(options)	{ }
 
 		public DbSet<Event> Event { get; set; }
 

@@ -1,30 +1,21 @@
+@import "./../../styles.scss";
+
 .form-container {
   display: flex;
   align-items: center;
   justify-content: center;
 
   mat-card {
-    width: 600px;
-    padding: 20px;
-    background-color: #555555;
+    width: 50%;
+    background-color: whitesmoke;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    color: #f2eeec;
+    color: $primary-color;
 
-    .example-form-field {
-        margin: 10px;
+    form {
+      padding: 16px;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 16px;
     }
   }
-  .example-form-field {
-    width: 200px;
-  }
-}
-.bg {
-  background-color: #000 !important;
-  height: 100vh;
-}
-.momentus-tech-logo {
-  position: absolute;
-  width: 25%;
-  top: 50px;
-  left: 50px;
 }

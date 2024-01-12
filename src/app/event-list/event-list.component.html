@@ -1,1 +1,30 @@
-<button (click)="router.navigateByUrl('/event')">Add Event</button>
+<div class="event-list-container bg">
+  <img
+    src="assets/momentus_technologies.svg"
+    alt="Momentus-Technologies"
+    class="momentus-tech-logo"
+  />
+  <div class="action-btn-container">
+    <button
+      mat-flat-button
+      color="primary"
+      (click)="router.navigateByUrl('/event')"
+    >
+      Add Event
+    </button>
+  </div>
+  <div class="list-container">
+    <div class="list-heading">
+      <div>Event Id</div>
+      <div>Event Name</div>
+      <div>Start Date</div>
+      <div>End Date</div>
+    </div>
+    <div class="list-data" *ngFor="let item of eventList">
+      <div>{{ item.eventId }}</div>
+      <div>{{ item.eventName }}</div>
+      <div>{{ item.startDate }}</div>
+      <div>{{ item.endDate }}</div>
+    </div>
+  </div>
+</div>

@@ -4,12 +4,12 @@ import { EventComponent } from './event/event.component';
 import { EventListComponent } from './event-list/event-list.component';
 
 const routes: Routes = [
+  // {
+  //   path: '',
+  //   component: EventListComponent
+  // },
   {
     path: '',
-    component: EventListComponent
-  },
-  {
-    path: 'event',
     component: EventComponent
   }
 ];

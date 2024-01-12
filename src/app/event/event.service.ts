@@ -5,10 +5,11 @@ import { HttpService } from 'src/service/http.service';
   providedIn: 'root'
 })
 export class EventService {
+  baseUrl = '';
 
   constructor(public http: HttpService) { }
 
-  getData() {
-    return this.http.get('sajdjsad');
+  getCatalogueItemSuggestions() {
+    return this.http.get(this.baseUrl + '/predict');
   }
 }

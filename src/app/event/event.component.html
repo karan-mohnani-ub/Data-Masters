@@ -1,6 +1,9 @@
 <div class="form-container bg">
-  <img src="assets/momentus_technologies.svg" alt="Momentus-Technologies"
-  class="momentus-tech-logo">
+  <img
+    src="assets/momentus_technologies.svg"
+    alt="Momentus-Technologies"
+    class="momentus-tech-logo"
+  />
   <mat-card>
     <mat-card-header>
       <mat-card-title>Create Event</mat-card-title>
@@ -48,7 +51,7 @@
         ></mat-datepicker-toggle>
         <mat-datepicker #picker></mat-datepicker>
       </mat-form-field>
-    
+
       <mat-form-field class="example-form-field">
         <mat-label>End Date</mat-label>
         <input matInput [matDatepicker]="picker" formControlName="endDate" />
@@ -60,9 +63,42 @@
         <mat-datepicker #picker></mat-datepicker>
       </mat-form-field>
 
+      <div></div>
+      <div></div>
+
       <mat-card-actions align="end">
-        <button style="color: #f2eeec;" mat-button (click)="router.navigateByUrl('')">BACK</button>
-        <button style="color: #f2eeec;" mat-button (click)="submit()">SUBMIT</button>
+        <button mat-button (click)="getSuggestions()">Get Catalog Suggestions</button>
+      </mat-card-actions>
+
+      <mat-form-field class="example-form-field" *ngIf="catalogueItems">
+        <mat-label>Catalogue Suggestions</mat-label>
+        <mat-chip-grid
+          #chipGrid
+          aria-label="Enter catalogue"
+          formControlName="catalogueItems"
+        >
+          <mat-chip-row
+            (removed)="remove(item)"
+            *ngFor="let item of catalogueItems"
+          >
+            {{ item }}
+            <button matChipRemove>
+              <mat-icon>cancel</mat-icon>
+            </button>
+          </mat-chip-row>
+        </mat-chip-grid>
+        <input
+          placeholder="New keyword..."
+          [matChipInputFor]="chipGrid"
+          (matChipInputTokenEnd)="add($event)"
+        />
+      </mat-form-field>
+
+      <div></div>
+      <div></div>
+
+      <mat-card-actions align="end">
+        <button mat-button (click)="submit()">Submit</button>
       </mat-card-actions>
     </form>
   </mat-card>

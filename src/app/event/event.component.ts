@@ -105,6 +105,7 @@ export class EventComponent {
     if (this.form.valid) {
       console.log(this.form.value);
       this.eventService.getCatalogueItemSuggestions(this.form.value).subscribe((data) => {
+        this.catalogueItems = [];
         console.log(data);
         let slicedObj = Object.fromEntries(Object.entries(data).slice(0, 3))
         console.log(slicedObj);

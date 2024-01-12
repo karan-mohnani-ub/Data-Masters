@@ -1,0 +1,501 @@
+﻿EventCategory,CatalogueItemName,UnitCost,UnitPrice,CatalogueType,ContactFirstName
+Christmas event,Dragon Noodles,41,46,Food,Emma
+New Year,Golden Dumplings,23,28,Food,Liam
+Birthday,Panda Delight,35,40,Food,Olivia
+Trade Shows,Spring Roll Haven,49,54,Food,Noah
+Anniversaries,Wonton Wonderland,26,31,Food,Ava
+Weddings,Dynasty Dim Sum,44,49,Food,Sophia
+Educational Conferences,Red Lantern Rice Bowl,30,35,Food,Jackson
+Concerts,Bamboo Bites,28,33,Food,Aiden
+Festivals,Szechuan Spice Shack,46,51,Food,Lucas
+Charity Events,Sweet and Sour Symphony,31,36,Food,Mia
+Christmas event,Ming Dynasty Morsels,27,32,Food,Ethan
+New Year,Great Wall Gourmet,42,47,Food,Isabella
+Birthday,Peking Duck Palace,22,27,Food,Caden
+Trade Shows,Lotus Blossom Banquet,36,41,Food,Amelia
+Anniversaries,Fortune Cookie Cottage,45,50,Food,Harper
+Weddings,Jade Garden Feast,21,26,Food,Elijah
+Educational Conferences,Chopstick Charms,29,34,Food,Abigail
+Concerts,Silk Road Sizzlers,40,45,Food,Benjamin
+Festivals,Imperial Wok Express,34,39,Food,Emily
+Charity Events,Lotus Leaf Lounge,48,53,Food,Oliver
+Christmas event,Oriental Orchid Eats,25,30,Food,Emma
+New Year,Forbidden City Flavors,38,43,Food,Liam
+Birthday,Noodle Nirvana,43,48,Food,Olivia
+Trade Shows,Zen Zest Cuisine,37,42,Food,Noah
+Anniversaries,Kung Pao Paradise,24,29,Food,Ava
+Weddings,Lotus Petal Platter,32,37,Food,Sophia
+Educational Conferences,Dragonfire Dumplings,50,55,Food,Jackson
+Concerts,Dynasty Delicacies,33,38,Food,Aiden
+Festivals,Pearl of the Orient,39,44,Food,Lucas
+Charity Events,Bamboo Grove Banquet,47,52,Food,Mia
+Christmas event,Lucky Lotus Lounge,50,55,Food,Ethan
+New Year,Shanghai Street Stir-Fry,23,28,Food,Isabella
+Birthday,Mandarin Marvels,36,41,Food,Caden
+Trade Shows,Wok Star Wonderland,45,50,Food,Amelia
+Anniversaries,Jasmine Joy Kitchen,22,27,Food,Harper
+Weddings,Moonlit Noodle House,27,32,Food,Elijah
+Educational Conferences,Harmonious Hot Pot,44,49,Food,Abigail
+Concerts,Panda Expressions,48,53,Food,Benjamin
+Festivals,Sizzling Sichuan,32,37,Food,Emily
+Charity Events,Red Pepper Revelry,41,46,Food,Oliver
+Christmas event,Sweet Plum Palace,30,35,Food,Emma
+New Year,Golden Wok Gardens,28,33,Food,Liam
+Birthday,Szechuan Silk Threads,49,54,Food,Olivia
+Trade Shows,Chopstick Charmers,46,51,Food,Noah
+Anniversaries,Temple of Tofu,26,31,Food,Ava
+Weddings,Spicy Dragon Dumplings,37,42,Food,Sophia
+Educational Conferences,Five-Spice Fusion,38,43,Food,Jackson
+Concerts,Blossom Buffet,35,40,Food,Aiden
+Festivals,Eastern Essence Eats,42,47,Food,Lucas
+Charity Events,Noodle Dynasty Delight,31,36,Food,Mia
+Christmas event,Citrus Splash,41,46,Beverage,Ethan
+New Year,Berry Bliss Brew,23,28,Beverage,Isabella
+Birthday,Tropical Tango Tea,35,40,Beverage,Caden
+Trade Shows,Sparkling Mint Mojito,49,54,Beverage,Amelia
+Anniversaries,Golden Sunrise Elixir,26,31,Beverage,Harper
+Weddings,Raspberry Ripple Refresher,44,49,Beverage,Elijah
+Educational Conferences,Peach Perfection Punch,30,35,Beverage,Abigail
+Concerts,Mango Tango Twist,28,33,Beverage,Benjamin
+Festivals,Cranberry Crush Cooler,46,51,Beverage,Emily
+Charity Events,Lavender Lemonade,31,36,Beverage,Oliver
+Christmas event,Blueberry Burst Beverage,27,32,Beverage,Emma
+New Year,Pineapple Paradise Potion,42,47,Beverage,Liam
+Birthday,Ginger Zest Zinger,22,27,Beverage,Olivia
+Trade Shows,Green Goddess Smoothie,36,41,Beverage,Noah
+Anniversaries,Watermelon Wave Quencher,45,50,Beverage,Ava
+Weddings,Cucumber Mint Cooler,21,26,Beverage,Sophia
+Educational Conferences,Pomegranate Passion Potion,29,34,Beverage,Jackson
+Concerts,Vanilla Velvet Shake,40,45,Beverage,Aiden
+Festivals,Espresso Elegance,34,39,Beverage,Lucas
+Charity Events,Coconut Cream Dream,48,53,Beverage,Mia
+Christmas event,Hazelnut Heaven Latte,25,30,Beverage,Ethan
+New Year,Almond Joy Infusion,38,43,Beverage,Isabella
+Birthday,Iced Caramel Comfort,43,48,Beverage,Caden
+Trade Shows,Chai Charm Chiller,37,42,Beverage,Amelia
+Anniversaries,Matcha Marvel Mixer,24,29,Beverage,Harper
+Weddings,Chocolate Cherry Cheer,32,37,Beverage,Elijah
+Educational Conferences,Strawberry Serenade Shake,50,55,Beverage,Abigail
+Concerts,Kiwi Kiss Cooler,33,38,Beverage,Benjamin
+Festivals,Blackberry Basil Bliss,39,44,Beverage,Emily
+Charity Events,Citrus Mint Medley,47,52,Beverage,Oliver
+Christmas event,Passionfruit Paradise,50,55,Beverage,Emma
+New Year,Herbal Hibiscus Hug,23,28,Beverage,Liam
+Birthday,Vanilla Bean Velvet,36,41,Beverage,Olivia
+Trade Shows,Blue Lagoon Libation,45,50,Beverage,Noah
+Anniversaries,Gingerbread Goodness,22,27,Beverage,Ava
+Weddings,Watermelon Mint Wave,27,32,Beverage,Sophia
+Educational Conferences,Cran-Apple Quencher,44,49,Beverage,Jackson
+Concerts,Rosemary Raspberry Refresher,48,53,Beverage,Aiden
+Festivals,Sparkling Lavender Lemonade,32,37,Beverage,Lucas
+Charity Events,Peachy Keen Kombucha,41,46,Beverage,Mia
+Christmas event,Berry Basil Breeze,30,35,Beverage,Ethan
+New Year,Citrus Cinnamon Sensation,28,33,Beverage,Isabella
+Birthday,Caramel Apple Delight,49,54,Beverage,Caden
+Trade Shows,Pineapple Sage Sipper,46,51,Beverage,Amelia
+Anniversaries,Turmeric Tonic Temptation,26,31,Beverage,Harper
+Weddings,Orange Blossom Bliss,37,42,Beverage,Elijah
+Educational Conferences,Raspberry Rose Radiance,38,43,Beverage,Abigail
+Concerts,Mango Mint Magic,35,40,Beverage,Benjamin
+Festivals,Cherry Almond Ambrosia,42,47,Beverage,Emily
+Charity Events,Blueberry Basil Bliss,31,36,Beverage,Oliver
+Christmas event,Dragon Noodles,41,46,Food,Emma
+New Year,Golden Dumplings,23,28,Food,Liam
+Birthday,Panda Delight,35,40,Food,Olivia
+Trade Shows,Spring Roll Haven,49,54,Food,Noah
+Anniversaries,Wonton Wonderland,26,31,Food,Ava
+Weddings,Dynasty Dim Sum,44,49,Food,Sophia
+Educational Conferences,Red Lantern Rice Bowl,30,35,Food,Jackson
+Concerts,Bamboo Bites,28,33,Food,Aiden
+Festivals,Szechuan Spice Shack,46,51,Food,Lucas
+Charity Events,Sweet and Sour Symphony,31,36,Food,Mia
+Christmas event,Ming Dynasty Morsels,27,32,Food,Ethan
+New Year,Great Wall Gourmet,42,47,Food,Isabella
+Birthday,Peking Duck Palace,22,27,Food,Caden
+Trade Shows,Lotus Blossom Banquet,36,41,Food,Amelia
+Anniversaries,Fortune Cookie Cottage,45,50,Food,Harper
+Weddings,Jade Garden Feast,21,26,Food,Elijah
+Educational Conferences,Chopstick Charms,29,34,Food,Abigail
+Concerts,Silk Road Sizzlers,40,45,Food,Benjamin
+Festivals,Imperial Wok Express,34,39,Food,Emily
+Charity Events,Lotus Leaf Lounge,48,53,Food,Oliver
+Christmas event,Oriental Orchid Eats,25,30,Food,Emma
+New Year,Forbidden City Flavors,38,43,Food,Liam
+Birthday,Noodle Nirvana,43,48,Food,Olivia
+Trade Shows,Zen Zest Cuisine,37,42,Food,Noah
+Anniversaries,Kung Pao Paradise,24,29,Food,Ava
+Weddings,Lotus Petal Platter,32,37,Food,Sophia
+Educational Conferences,Dragonfire Dumplings,50,55,Food,Jackson
+Concerts,Dynasty Delicacies,33,38,Food,Aiden
+Festivals,Pearl of the Orient,39,44,Food,Lucas
+Charity Events,Bamboo Grove Banquet,47,52,Food,Mia
+Christmas event,Lucky Lotus Lounge,50,55,Food,Ethan
+New Year,Shanghai Street Stir-Fry,23,28,Food,Isabella
+Birthday,Mandarin Marvels,36,41,Food,Caden
+Trade Shows,Wok Star Wonderland,45,50,Food,Amelia
+Anniversaries,Jasmine Joy Kitchen,22,27,Food,Harper
+Weddings,Moonlit Noodle House,27,32,Food,Elijah
+Educational Conferences,Harmonious Hot Pot,44,49,Food,Abigail
+Concerts,Panda Expressions,48,53,Food,Benjamin
+Festivals,Sizzling Sichuan,32,37,Food,Emily
+Charity Events,Red Pepper Revelry,41,46,Food,Oliver
+Christmas event,Sweet Plum Palace,30,35,Food,Emma
+New Year,Golden Wok Gardens,28,33,Food,Liam
+Birthday,Szechuan Silk Threads,49,54,Food,Olivia
+Trade Shows,Chopstick Charmers,46,51,Food,Noah
+Anniversaries,Temple of Tofu,26,31,Food,Ava
+Weddings,Spicy Dragon Dumplings,37,42,Food,Sophia
+Educational Conferences,Five-Spice Fusion,38,43,Food,Jackson
+Concerts,Blossom Buffet,35,40,Food,Aiden
+Festivals,Eastern Essence Eats,42,47,Food,Lucas
+Charity Events,Noodle Dynasty Delight,31,36,Food,Mia
+Christmas event,Citrus Splash,41,46,Beverage,Ethan
+New Year,Berry Bliss Brew,23,28,Beverage,Isabella
+Birthday,Tropical Tango Tea,35,40,Beverage,Caden
+Trade Shows,Sparkling Mint Mojito,49,54,Beverage,Amelia
+Anniversaries,Golden Sunrise Elixir,26,31,Beverage,Harper
+Weddings,Raspberry Ripple Refresher,44,49,Beverage,Elijah
+Educational Conferences,Peach Perfection Punch,30,35,Beverage,Abigail
+Concerts,Mango Tango Twist,28,33,Beverage,Benjamin
+Festivals,Cranberry Crush Cooler,46,51,Beverage,Emily
+Charity Events,Lavender Lemonade,31,36,Beverage,Oliver
+Christmas event,Blueberry Burst Beverage,27,32,Beverage,Emma
+New Year,Pineapple Paradise Potion,42,47,Beverage,Liam
+Birthday,Ginger Zest Zinger,22,27,Beverage,Olivia
+Trade Shows,Green Goddess Smoothie,36,41,Beverage,Noah
+Anniversaries,Watermelon Wave Quencher,45,50,Beverage,Ava
+Weddings,Cucumber Mint Cooler,21,26,Beverage,Sophia
+Educational Conferences,Pomegranate Passion Potion,29,34,Beverage,Jackson
+Concerts,Vanilla Velvet Shake,40,45,Beverage,Aiden
+Festivals,Espresso Elegance,34,39,Beverage,Lucas
+Charity Events,Coconut Cream Dream,48,53,Beverage,Mia
+Christmas event,Hazelnut Heaven Latte,25,30,Beverage,Ethan
+New Year,Almond Joy Infusion,38,43,Beverage,Isabella
+Birthday,Iced Caramel Comfort,43,48,Beverage,Caden
+Trade Shows,Chai Charm Chiller,37,42,Beverage,Amelia
+Anniversaries,Matcha Marvel Mixer,24,29,Beverage,Harper
+Weddings,Chocolate Cherry Cheer,32,37,Beverage,Elijah
+Educational Conferences,Strawberry Serenade Shake,50,55,Beverage,Abigail
+Concerts,Kiwi Kiss Cooler,33,38,Beverage,Benjamin
+Festivals,Blackberry Basil Bliss,39,44,Beverage,Emily
+Charity Events,Citrus Mint Medley,47,52,Beverage,Oliver
+Christmas event,Passionfruit Paradise,50,55,Beverage,Emma
+New Year,Herbal Hibiscus Hug,23,28,Beverage,Liam
+Birthday,Vanilla Bean Velvet,36,41,Beverage,Olivia
+Trade Shows,Blue Lagoon Libation,45,50,Beverage,Noah
+Anniversaries,Gingerbread Goodness,22,27,Beverage,Ava
+Weddings,Watermelon Mint Wave,27,32,Beverage,Sophia
+Educational Conferences,Cran-Apple Quencher,44,49,Beverage,Jackson
+Concerts,Rosemary Raspberry Refresher,48,53,Beverage,Aiden
+Festivals,Sparkling Lavender Lemonade,32,37,Beverage,Lucas
+Charity Events,Peachy Keen Kombucha,41,46,Beverage,Mia
+Christmas event,Berry Basil Breeze,30,35,Beverage,Ethan
+New Year,Citrus Cinnamon Sensation,28,33,Beverage,Isabella
+Birthday,Caramel Apple Delight,49,54,Beverage,Caden
+Trade Shows,Pineapple Sage Sipper,46,51,Beverage,Amelia
+Anniversaries,Turmeric Tonic Temptation,26,31,Beverage,Harper
+Weddings,Orange Blossom Bliss,37,42,Beverage,Elijah
+Educational Conferences,Raspberry Rose Radiance,38,43,Beverage,Abigail
+Concerts,Mango Mint Magic,35,40,Beverage,Benjamin
+Festivals,Cherry Almond Ambrosia,42,47,Beverage,Emily
+Charity Events,Blueberry Basil Bliss,31,36,Beverage,Oliver
+Christmas event,Dragon Noodles,41,46,Food,Emma
+New Year,Golden Dumplings,23,28,Food,Liam
+Birthday,Panda Delight,35,40,Food,Olivia
+Trade Shows,Spring Roll Haven,49,54,Food,Noah
+Anniversaries,Wonton Wonderland,26,31,Food,Ava
+Weddings,Dynasty Dim Sum,44,49,Food,Sophia
+Educational Conferences,Red Lantern Rice Bowl,30,35,Food,Jackson
+Concerts,Bamboo Bites,28,33,Food,Aiden
+Festivals,Szechuan Spice Shack,46,51,Food,Lucas
+Charity Events,Sweet and Sour Symphony,31,36,Food,Mia
+Christmas event,Ming Dynasty Morsels,27,32,Food,Ethan
+New Year,Great Wall Gourmet,42,47,Food,Isabella
+Birthday,Peking Duck Palace,22,27,Food,Caden
+Trade Shows,Lotus Blossom Banquet,36,41,Food,Amelia
+Anniversaries,Fortune Cookie Cottage,45,50,Food,Harper
+Weddings,Jade Garden Feast,21,26,Food,Elijah
+Educational Conferences,Chopstick Charms,29,34,Food,Abigail
+Concerts,Silk Road Sizzlers,40,45,Food,Benjamin
+Festivals,Imperial Wok Express,34,39,Food,Emily
+Charity Events,Lotus Leaf Lounge,48,53,Food,Oliver
+Christmas event,Oriental Orchid Eats,25,30,Food,Emma
+New Year,Forbidden City Flavors,38,43,Food,Liam
+Birthday,Noodle Nirvana,43,48,Food,Olivia
+Trade Shows,Zen Zest Cuisine,37,42,Food,Noah
+Anniversaries,Kung Pao Paradise,24,29,Food,Ava
+Weddings,Lotus Petal Platter,32,37,Food,Sophia
+Educational Conferences,Dragonfire Dumplings,50,55,Food,Jackson
+Concerts,Dynasty Delicacies,33,38,Food,Aiden
+Festivals,Pearl of the Orient,39,44,Food,Lucas
+Charity Events,Bamboo Grove Banquet,47,52,Food,Mia
+Christmas event,Lucky Lotus Lounge,50,55,Food,Ethan
+New Year,Shanghai Street Stir-Fry,23,28,Food,Isabella
+Birthday,Mandarin Marvels,36,41,Food,Caden
+Trade Shows,Wok Star Wonderland,45,50,Food,Amelia
+Anniversaries,Jasmine Joy Kitchen,22,27,Food,Harper
+Weddings,Moonlit Noodle House,27,32,Food,Elijah
+Educational Conferences,Harmonious Hot Pot,44,49,Food,Abigail
+Concerts,Panda Expressions,48,53,Food,Benjamin
+Festivals,Sizzling Sichuan,32,37,Food,Emily
+Charity Events,Red Pepper Revelry,41,46,Food,Oliver
+Christmas event,Sweet Plum Palace,30,35,Food,Emma
+New Year,Golden Wok Gardens,28,33,Food,Liam
+Birthday,Szechuan Silk Threads,49,54,Food,Olivia
+Trade Shows,Chopstick Charmers,46,51,Food,Noah
+Anniversaries,Temple of Tofu,26,31,Food,Ava
+Weddings,Spicy Dragon Dumplings,37,42,Food,Sophia
+Educational Conferences,Five-Spice Fusion,38,43,Food,Jackson
+Concerts,Blossom Buffet,35,40,Food,Aiden
+Festivals,Eastern Essence Eats,42,47,Food,Lucas
+Charity Events,Noodle Dynasty Delight,31,36,Food,Mia
+Christmas event,Citrus Splash,41,46,Beverage,Ethan
+New Year,Berry Bliss Brew,23,28,Beverage,Isabella
+Birthday,Tropical Tango Tea,35,40,Beverage,Caden
+Trade Shows,Sparkling Mint Mojito,49,54,Beverage,Amelia
+Anniversaries,Golden Sunrise Elixir,26,31,Beverage,Harper
+Weddings,Raspberry Ripple Refresher,44,49,Beverage,Elijah
+Educational Conferences,Peach Perfection Punch,30,35,Beverage,Abigail
+Concerts,Mango Tango Twist,28,33,Beverage,Benjamin
+Festivals,Cranberry Crush Cooler,46,51,Beverage,Emily
+Charity Events,Lavender Lemonade,31,36,Beverage,Oliver
+Christmas event,Blueberry Burst Beverage,27,32,Beverage,Emma
+New Year,Pineapple Paradise Potion,42,47,Beverage,Liam
+Birthday,Ginger Zest Zinger,22,27,Beverage,Olivia
+Trade Shows,Green Goddess Smoothie,36,41,Beverage,Noah
+Anniversaries,Watermelon Wave Quencher,45,50,Beverage,Ava
+Weddings,Cucumber Mint Cooler,21,26,Beverage,Sophia
+Educational Conferences,Pomegranate Passion Potion,29,34,Beverage,Jackson
+Concerts,Vanilla Velvet Shake,40,45,Beverage,Aiden
+Festivals,Espresso Elegance,34,39,Beverage,Lucas
+Charity Events,Coconut Cream Dream,48,53,Beverage,Mia
+Christmas event,Hazelnut Heaven Latte,25,30,Beverage,Ethan
+New Year,Almond Joy Infusion,38,43,Beverage,Isabella
+Birthday,Iced Caramel Comfort,43,48,Beverage,Caden
+Trade Shows,Chai Charm Chiller,37,42,Beverage,Amelia
+Anniversaries,Matcha Marvel Mixer,24,29,Beverage,Harper
+Weddings,Chocolate Cherry Cheer,32,37,Beverage,Elijah
+Educational Conferences,Strawberry Serenade Shake,50,55,Beverage,Abigail
+Concerts,Kiwi Kiss Cooler,33,38,Beverage,Benjamin
+Festivals,Blackberry Basil Bliss,39,44,Beverage,Emily
+Charity Events,Citrus Mint Medley,47,52,Beverage,Oliver
+Christmas event,Passionfruit Paradise,50,55,Beverage,Emma
+New Year,Herbal Hibiscus Hug,23,28,Beverage,Liam
+Birthday,Vanilla Bean Velvet,36,41,Beverage,Olivia
+Trade Shows,Blue Lagoon Libation,45,50,Beverage,Noah
+Anniversaries,Gingerbread Goodness,22,27,Beverage,Ava
+Weddings,Watermelon Mint Wave,27,32,Beverage,Sophia
+Educational Conferences,Cran-Apple Quencher,44,49,Beverage,Jackson
+Concerts,Rosemary Raspberry Refresher,48,53,Beverage,Aiden
+Festivals,Sparkling Lavender Lemonade,32,37,Beverage,Lucas
+Charity Events,Peachy Keen Kombucha,41,46,Beverage,Mia
+Christmas event,Berry Basil Breeze,30,35,Beverage,Ethan
+New Year,Citrus Cinnamon Sensation,28,33,Beverage,Isabella
+Birthday,Caramel Apple Delight,49,54,Beverage,Caden
+Trade Shows,Pineapple Sage Sipper,46,51,Beverage,Amelia
+Anniversaries,Turmeric Tonic Temptation,26,31,Beverage,Harper
+Weddings,Orange Blossom Bliss,37,42,Beverage,Elijah
+Educational Conferences,Raspberry Rose Radiance,38,43,Beverage,Abigail
+Concerts,Mango Mint Magic,35,40,Beverage,Benjamin
+Festivals,Cherry Almond Ambrosia,42,47,Beverage,Emily
+Charity Events,Blueberry Basil Bliss,31,36,Beverage,Oliver
+Christmas event,Dragon Noodles,41,46,Food,Emma
+New Year,Golden Dumplings,23,28,Food,Liam
+Birthday,Panda Delight,35,40,Food,Olivia
+Trade Shows,Spring Roll Haven,49,54,Food,Noah
+Anniversaries,Wonton Wonderland,26,31,Food,Ava
+Weddings,Dynasty Dim Sum,44,49,Food,Sophia
+Educational Conferences,Red Lantern Rice Bowl,30,35,Food,Jackson
+Concerts,Bamboo Bites,28,33,Food,Aiden
+Festivals,Szechuan Spice Shack,46,51,Food,Lucas
+Charity Events,Sweet and Sour Symphony,31,36,Food,Mia
+Christmas event,Ming Dynasty Morsels,27,32,Food,Ethan
+New Year,Great Wall Gourmet,42,47,Food,Isabella
+Birthday,Peking Duck Palace,22,27,Food,Caden
+Trade Shows,Lotus Blossom Banquet,36,41,Food,Amelia
+Anniversaries,Fortune Cookie Cottage,45,50,Food,Harper
+Weddings,Jade Garden Feast,21,26,Food,Elijah
+Educational Conferences,Chopstick Charms,29,34,Food,Abigail
+Concerts,Silk Road Sizzlers,40,45,Food,Benjamin
+Festivals,Imperial Wok Express,34,39,Food,Emily
+Charity Events,Lotus Leaf Lounge,48,53,Food,Oliver
+Christmas event,Oriental Orchid Eats,25,30,Food,Emma
+New Year,Forbidden City Flavors,38,43,Food,Liam
+Birthday,Noodle Nirvana,43,48,Food,Olivia
+Trade Shows,Zen Zest Cuisine,37,42,Food,Noah
+Anniversaries,Kung Pao Paradise,24,29,Food,Ava
+Weddings,Lotus Petal Platter,32,37,Food,Sophia
+Educational Conferences,Dragonfire Dumplings,50,55,Food,Jackson
+Concerts,Dynasty Delicacies,33,38,Food,Aiden
+Festivals,Pearl of the Orient,39,44,Food,Lucas
+Charity Events,Bamboo Grove Banquet,47,52,Food,Mia
+Christmas event,Lucky Lotus Lounge,50,55,Food,Ethan
+New Year,Shanghai Street Stir-Fry,23,28,Food,Isabella
+Birthday,Mandarin Marvels,36,41,Food,Caden
+Trade Shows,Wok Star Wonderland,45,50,Food,Amelia
+Anniversaries,Jasmine Joy Kitchen,22,27,Food,Harper
+Weddings,Moonlit Noodle House,27,32,Food,Elijah
+Educational Conferences,Harmonious Hot Pot,44,49,Food,Abigail
+Concerts,Panda Expressions,48,53,Food,Benjamin
+Festivals,Sizzling Sichuan,32,37,Food,Emily
+Charity Events,Red Pepper Revelry,41,46,Food,Oliver
+Christmas event,Sweet Plum Palace,30,35,Food,Emma
+New Year,Golden Wok Gardens,28,33,Food,Liam
+Birthday,Szechuan Silk Threads,49,54,Food,Olivia
+Trade Shows,Chopstick Charmers,46,51,Food,Noah
+Anniversaries,Temple of Tofu,26,31,Food,Ava
+Weddings,Spicy Dragon Dumplings,37,42,Food,Sophia
+Educational Conferences,Five-Spice Fusion,38,43,Food,Jackson
+Concerts,Blossom Buffet,35,40,Food,Aiden
+Festivals,Eastern Essence Eats,42,47,Food,Lucas
+Charity Events,Noodle Dynasty Delight,31,36,Food,Mia
+Christmas event,Citrus Splash,41,46,Beverage,Ethan
+New Year,Berry Bliss Brew,23,28,Beverage,Isabella
+Birthday,Tropical Tango Tea,35,40,Beverage,Caden
+Trade Shows,Sparkling Mint Mojito,49,54,Beverage,Amelia
+Anniversaries,Golden Sunrise Elixir,26,31,Beverage,Harper
+Weddings,Raspberry Ripple Refresher,44,49,Beverage,Elijah
+Educational Conferences,Peach Perfection Punch,30,35,Beverage,Abigail
+Concerts,Mango Tango Twist,28,33,Beverage,Benjamin
+Festivals,Cranberry Crush Cooler,46,51,Beverage,Emily
+Charity Events,Lavender Lemonade,31,36,Beverage,Oliver
+Christmas event,Blueberry Burst Beverage,27,32,Beverage,Emma
+New Year,Pineapple Paradise Potion,42,47,Beverage,Liam
+Birthday,Ginger Zest Zinger,22,27,Beverage,Olivia
+Trade Shows,Green Goddess Smoothie,36,41,Beverage,Noah
+Anniversaries,Watermelon Wave Quencher,45,50,Beverage,Ava
+Weddings,Cucumber Mint Cooler,21,26,Beverage,Sophia
+Educational Conferences,Pomegranate Passion Potion,29,34,Beverage,Jackson
+Concerts,Vanilla Velvet Shake,40,45,Beverage,Aiden
+Festivals,Espresso Elegance,34,39,Beverage,Lucas
+Charity Events,Coconut Cream Dream,48,53,Beverage,Mia
+Christmas event,Hazelnut Heaven Latte,25,30,Beverage,Ethan
+New Year,Almond Joy Infusion,38,43,Beverage,Isabella
+Birthday,Iced Caramel Comfort,43,48,Beverage,Caden
+Trade Shows,Chai Charm Chiller,37,42,Beverage,Amelia
+Anniversaries,Matcha Marvel Mixer,24,29,Beverage,Harper
+Weddings,Chocolate Cherry Cheer,32,37,Beverage,Elijah
+Educational Conferences,Strawberry Serenade Shake,50,55,Beverage,Abigail
+Concerts,Kiwi Kiss Cooler,33,38,Beverage,Benjamin
+Festivals,Blackberry Basil Bliss,39,44,Beverage,Emily
+Charity Events,Citrus Mint Medley,47,52,Beverage,Oliver
+Christmas event,Passionfruit Paradise,50,55,Beverage,Emma
+New Year,Herbal Hibiscus Hug,23,28,Beverage,Liam
+Birthday,Vanilla Bean Velvet,36,41,Beverage,Olivia
+Trade Shows,Blue Lagoon Libation,45,50,Beverage,Noah
+Anniversaries,Gingerbread Goodness,22,27,Beverage,Ava
+Weddings,Watermelon Mint Wave,27,32,Beverage,Sophia
+Educational Conferences,Cran-Apple Quencher,44,49,Beverage,Jackson
+Concerts,Rosemary Raspberry Refresher,48,53,Beverage,Aiden
+Festivals,Sparkling Lavender Lemonade,32,37,Beverage,Lucas
+Charity Events,Peachy Keen Kombucha,41,46,Beverage,Mia
+Christmas event,Berry Basil Breeze,30,35,Beverage,Ethan
+New Year,Citrus Cinnamon Sensation,28,33,Beverage,Isabella
+Birthday,Caramel Apple Delight,49,54,Beverage,Caden
+Trade Shows,Pineapple Sage Sipper,46,51,Beverage,Amelia
+Anniversaries,Turmeric Tonic Temptation,26,31,Beverage,Harper
+Weddings,Orange Blossom Bliss,37,42,Beverage,Elijah
+Educational Conferences,Raspberry Rose Radiance,38,43,Beverage,Abigail
+Concerts,Mango Mint Magic,35,40,Beverage,Benjamin
+Festivals,Cherry Almond Ambrosia,42,47,Beverage,Emily
+Charity Events,Blueberry Basil Bliss,31,36,Beverage,Oliver
+Christmas event,Dragon Noodles,41,46,Food,Emma
+New Year,Golden Dumplings,23,28,Food,Liam
+Birthday,Panda Delight,35,40,Food,Olivia
+Trade Shows,Spring Roll Haven,49,54,Food,Noah
+Anniversaries,Wonton Wonderland,26,31,Food,Ava
+Weddings,Dynasty Dim Sum,44,49,Food,Sophia
+Educational Conferences,Red Lantern Rice Bowl,30,35,Food,Jackson
+Concerts,Bamboo Bites,28,33,Food,Aiden
+Festivals,Szechuan Spice Shack,46,51,Food,Lucas
+Charity Events,Sweet and Sour Symphony,31,36,Food,Mia
+Christmas event,Ming Dynasty Morsels,27,32,Food,Ethan
+New Year,Great Wall Gourmet,42,47,Food,Isabella
+Birthday,Peking Duck Palace,22,27,Food,Caden
+Trade Shows,Lotus Blossom Banquet,36,41,Food,Amelia
+Anniversaries,Fortune Cookie Cottage,45,50,Food,Harper
+Weddings,Jade Garden Feast,21,26,Food,Elijah
+Educational Conferences,Chopstick Charms,29,34,Food,Abigail
+Concerts,Silk Road Sizzlers,40,45,Food,Benjamin
+Festivals,Imperial Wok Express,34,39,Food,Emily
+Charity Events,Lotus Leaf Lounge,48,53,Food,Oliver
+Christmas event,Oriental Orchid Eats,25,30,Food,Emma
+New Year,Forbidden City Flavors,38,43,Food,Liam
+Birthday,Noodle Nirvana,43,48,Food,Olivia
+Trade Shows,Zen Zest Cuisine,37,42,Food,Noah
+Anniversaries,Kung Pao Paradise,24,29,Food,Ava
+Weddings,Lotus Petal Platter,32,37,Food,Sophia
+Educational Conferences,Dragonfire Dumplings,50,55,Food,Jackson
+Concerts,Dynasty Delicacies,33,38,Food,Aiden
+Festivals,Pearl of the Orient,39,44,Food,Lucas
+Charity Events,Bamboo Grove Banquet,47,52,Food,Mia
+Christmas event,Lucky Lotus Lounge,50,55,Food,Ethan
+New Year,Shanghai Street Stir-Fry,23,28,Food,Isabella
+Birthday,Mandarin Marvels,36,41,Food,Caden
+Trade Shows,Wok Star Wonderland,45,50,Food,Amelia
+Anniversaries,Jasmine Joy Kitchen,22,27,Food,Harper
+Weddings,Moonlit Noodle House,27,32,Food,Elijah
+Educational Conferences,Harmonious Hot Pot,44,49,Food,Abigail
+Concerts,Panda Expressions,48,53,Food,Benjamin
+Festivals,Sizzling Sichuan,32,37,Food,Emily
+Charity Events,Red Pepper Revelry,41,46,Food,Oliver
+Christmas event,Sweet Plum Palace,30,35,Food,Emma
+New Year,Golden Wok Gardens,28,33,Food,Liam
+Birthday,Szechuan Silk Threads,49,54,Food,Olivia
+Trade Shows,Chopstick Charmers,46,51,Food,Noah
+Anniversaries,Temple of Tofu,26,31,Food,Ava
+Weddings,Spicy Dragon Dumplings,37,42,Food,Sophia
+Educational Conferences,Five-Spice Fusion,38,43,Food,Jackson
+Concerts,Blossom Buffet,35,40,Food,Aiden
+Festivals,Eastern Essence Eats,42,47,Food,Lucas
+Charity Events,Noodle Dynasty Delight,31,36,Food,Mia
+Christmas event,Citrus Splash,41,46,Beverage,Ethan
+New Year,Berry Bliss Brew,23,28,Beverage,Isabella
+Birthday,Tropical Tango Tea,35,40,Beverage,Caden
+Trade Shows,Sparkling Mint Mojito,49,54,Beverage,Amelia
+Anniversaries,Golden Sunrise Elixir,26,31,Beverage,Harper
+Weddings,Raspberry Ripple Refresher,44,49,Beverage,Elijah
+Educational Conferences,Peach Perfection Punch,30,35,Beverage,Abigail
+Concerts,Mango Tango Twist,28,33,Beverage,Benjamin
+Festivals,Cranberry Crush Cooler,46,51,Beverage,Emily
+Charity Events,Lavender Lemonade,31,36,Beverage,Oliver
+Christmas event,Blueberry Burst Beverage,27,32,Beverage,Emma
+New Year,Pineapple Paradise Potion,42,47,Beverage,Liam
+Birthday,Ginger Zest Zinger,22,27,Beverage,Olivia
+Trade Shows,Green Goddess Smoothie,36,41,Beverage,Noah
+Anniversaries,Watermelon Wave Quencher,45,50,Beverage,Ava
+Weddings,Cucumber Mint Cooler,21,26,Beverage,Sophia
+Educational Conferences,Pomegranate Passion Potion,29,34,Beverage,Jackson
+Concerts,Vanilla Velvet Shake,40,45,Beverage,Aiden
+Festivals,Espresso Elegance,34,39,Beverage,Lucas
+Charity Events,Coconut Cream Dream,48,53,Beverage,Mia
+Christmas event,Hazelnut Heaven Latte,25,30,Beverage,Ethan
+New Year,Almond Joy Infusion,38,43,Beverage,Isabella
+Birthday,Iced Caramel Comfort,43,48,Beverage,Caden
+Trade Shows,Chai Charm Chiller,37,42,Beverage,Amelia
+Anniversaries,Matcha Marvel Mixer,24,29,Beverage,Harper
+Weddings,Chocolate Cherry Cheer,32,37,Beverage,Elijah
+Educational Conferences,Strawberry Serenade Shake,50,55,Beverage,Abigail
+Concerts,Kiwi Kiss Cooler,33,38,Beverage,Benjamin
+Festivals,Blackberry Basil Bliss,39,44,Beverage,Emily
+Charity Events,Citrus Mint Medley,47,52,Beverage,Oliver
+Christmas event,Passionfruit Paradise,50,55,Beverage,Emma
+New Year,Herbal Hibiscus Hug,23,28,Beverage,Liam
+Birthday,Vanilla Bean Velvet,36,41,Beverage,Olivia
+Trade Shows,Blue Lagoon Libation,45,50,Beverage,Noah
+Anniversaries,Gingerbread Goodness,22,27,Beverage,Ava
+Weddings,Watermelon Mint Wave,27,32,Beverage,Sophia
+Educational Conferences,Cran-Apple Quencher,44,49,Beverage,Jackson
+Concerts,Rosemary Raspberry Refresher,48,53,Beverage,Aiden
+Festivals,Sparkling Lavender Lemonade,32,37,Beverage,Lucas
+Charity Events,Peachy Keen Kombucha,41,46,Beverage,Mia
+Christmas event,Berry Basil Breeze,30,35,Beverage,Ethan
+New Year,Citrus Cinnamon Sensation,28,33,Beverage,Isabella
+Birthday,Caramel Apple Delight,49,54,Beverage,Caden
+Trade Shows,Pineapple Sage Sipper,46,51,Beverage,Amelia
+Anniversaries,Turmeric Tonic Temptation,26,31,Beverage,Harper
+Weddings,Orange Blossom Bliss,37,42,Beverage,Elijah
+Educational Conferences,Raspberry Rose Radiance,38,43,Beverage,Abigail
+Concerts,Mango Mint Magic,35,40,Beverage,Benjamin
+Festivals,Cherry Almond Ambrosia,42,47,Beverage,Emily
+Charity Events,Blueberry Basil Bliss,31,36,Beverage,Oliver

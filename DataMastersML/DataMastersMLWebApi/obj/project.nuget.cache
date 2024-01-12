@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "KS8Mh9Wf//SzJx6RVe8D/968FC7MkPYQ6Uah48zk77wUinuE+tfIqJib66xZZa8L7lmWztpKqer267GRBnoGhg==",
+  "dgSpecHash": "zEdxUSUR7q/hkAlMqYyPpJ/LDvsu1BV2oXCLvyW/uD3KseAxllBsJCqFs1wNwapc0tO5qFND5Up//X4AmbOTVg==",
   "success": true,
   "projectFilePath": "D:\\Repo\\Data-Masters\\DataMastersML\\DataMastersMLWebApi\\DataMastersMLWebApi.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Karan\\.nuget\\packages\\lightgbm\\2.3.1\\lightgbm.2.3.1.nupkg.sha512",
     "C:\\Users\\Karan\\.nuget\\packages\\microsoft.csharp\\4.3.0\\microsoft.csharp.4.3.0.nupkg.sha512",
     "C:\\Users\\Karan\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "C:\\Users\\Karan\\.nuget\\packages\\microsoft.extensions.configuration\\2.1.0\\microsoft.extensions.configuration.2.1.0.nupkg.sha512",
@@ -19,6 +20,8 @@
     "C:\\Users\\Karan\\.nuget\\packages\\microsoft.ml\\1.7.1\\microsoft.ml.1.7.1.nupkg.sha512",
     "C:\\Users\\Karan\\.nuget\\packages\\microsoft.ml.cpumath\\1.7.1\\microsoft.ml.cpumath.1.7.1.nupkg.sha512",
     "C:\\Users\\Karan\\.nuget\\packages\\microsoft.ml.dataview\\3.0.0\\microsoft.ml.dataview.3.0.0.nupkg.sha512",
+    "C:\\Users\\Karan\\.nuget\\packages\\microsoft.ml.fasttree\\1.7.1\\microsoft.ml.fasttree.1.7.1.nupkg.sha512",
+    "C:\\Users\\Karan\\.nuget\\packages\\microsoft.ml.lightgbm\\1.7.1\\microsoft.ml.lightgbm.1.7.1.nupkg.sha512",
     "C:\\Users\\Karan\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\Karan\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
     "C:\\Users\\Karan\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",

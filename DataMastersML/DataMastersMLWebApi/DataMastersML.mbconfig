@@ -1,10 +1,10 @@
 ﻿{
-  "TrainingTime": 10,
+  "TrainingTime": 60,
   "Scenario": "Classification",
   "DataSource": {
     "Type": "TabularFile",
     "Version": 1,
-    "FilePath": "D:\\Repo\\Data-Masters\\MLData.csv",
+    "FilePath": "D:\\Repo\\Data-Masters\\MLData2.csv",
     "Delimiter": ",",
     "DecimalMarker": ".",
     "HasHeader": true,
@@ -71,15 +71,22 @@
         "Version": 0,
         "Type": "Trial",
         "TrainerName": "SdcaMaximumEntropyMulti",
-        "Score": 0.0,
-        "RuntimeInSeconds": 4.2039999961853027
+        "Score": 0.0038888888888888888,
+        "RuntimeInSeconds": 1.9670000076293945
       },
       {
         "Version": 0,
         "Type": "Trial",
-        "TrainerName": "FastTreeOva",
-        "Score": 0.0,
-        "RuntimeInSeconds": 4.0890002250671387
+        "TrainerName": "LightGbmMulti",
+        "Score": 0.60514294566962146,
+        "RuntimeInSeconds": 1.4730000495910645
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "SdcaLogisticRegressionOva",
+        "Score": 0.010324642677583856,
+        "RuntimeInSeconds": 56.291000366210938
       }
     ],
     "Pipeline": {
@@ -121,20 +128,19 @@
           "InputColumnName": "CatalogueItemName"
         },
         "4": {
-          "OutputColumnNames": [
-            "Features"
-          ],
-          "InputColumnNames": [
-            "Features"
-          ]
-        },
-        "5": {
-          "L1Regularization": 1.0,
-          "L2Regularization": 0.1,
+          "NumberOfLeaves": 4,
+          "MinimumExampleCountPerLeaf": 20,
+          "LearningRate": 1.0,
+          "NumberOfTrees": 4,
+          "SubsampleFraction": 1.0,
+          "MaximumBinCountPerFeature": 255,
+          "FeatureFraction": 1.0,
+          "L1Regularization": 2E-10,
+          "L2Regularization": 1.0,
           "LabelColumnName": "CatalogueItemName",
           "FeatureColumnName": "Features"
         },
-        "6": {
+        "5": {
           "OutputColumnName": "PredictedLabel",
           "InputColumnName": "PredictedLabel"
         }
@@ -144,8 +150,7 @@
         "ReplaceMissingValues",
         "Concatenate",
         "MapValueToKey",
-        "NormalizeMinMax",
-        "SdcaMaximumEntropyMulti",
+        "LightGbmMulti",
         "MapKeyToValue"
       ]
     },

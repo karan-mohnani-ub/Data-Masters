@@ -53,6 +53,10 @@
               "target": "Package",
               "version": "[3.0.0, )"
             },
+            "Microsoft.ML.LightGbm": {
+              "target": "Package",
+              "version": "[1.7.1, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.1.4, )"

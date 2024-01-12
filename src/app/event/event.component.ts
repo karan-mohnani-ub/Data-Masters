@@ -79,52 +79,52 @@ export class EventComponent {
   }
 
   getSuggestions() {
-    let result = {
-      "Bloody mary": 0.15068662,
-      "Burger": 0.14528053,
-      "Coke": 0.14225063,
-      "Blue lagoon": 0.09363038,
-      "Platter": 0.09363038,
-      "Pizza": 0.09363038,
-      "Noodles": 0.09363038,
-      "Fries": 0.09363038,
-      "Paneer": 0.09363038
-    };
-    let slicedObj = Object.fromEntries(Object.entries(result).slice(0, 3))
-    console.log(slicedObj);
+    // let result = {
+    //   "Bloody mary": 0.15068662,
+    //   "Burger": 0.14528053,
+    //   "Coke": 0.14225063,
+    //   "Blue lagoon": 0.09363038,
+    //   "Platter": 0.09363038,
+    //   "Pizza": 0.09363038,
+    //   "Noodles": 0.09363038,
+    //   "Fries": 0.09363038,
+    //   "Paneer": 0.09363038
+    // };
+    // let slicedObj = Object.fromEntries(Object.entries(result).slice(0, 3))
+    // console.log(slicedObj);
 
-    for (let item in slicedObj) {
-      this.catalogueItems.push(item)
-    }
-    console.log(this.catalogueItems)
-    this.snackBar.openFromComponent(SnackbarComponent, {
-      duration: 3000,
-      verticalPosition: this.verticalPosition,
-    });
-    // console.log(this.form)
-    // if (this.form.valid) {
-    //   console.log(this.form.value);
-    //   this.eventService.getCatalogueItemSuggestions(this.form.value).subscribe((data) => {
-    //     console.log(data);
-    //     let slicedObj = Object.fromEntries(Object.entries(data).slice(0, 3))
-    //     console.log(slicedObj);
-
-    //     for (let item in slicedObj) {
-    //       this.catalogueItems.push(item)
-    //     }
-    //     console.log(this.catalogueItems)
-    //   });
+    // for (let item in slicedObj) {
+    //   this.catalogueItems.push(item)
+    // }
+    // console.log(this.catalogueItems)
     // this.snackBar.openFromComponent(SnackbarComponent, {
     //   duration: 3000,
     //   verticalPosition: this.verticalPosition,
     // });
-    // }
+    console.log(this.form)
+    if (this.form.valid) {
+      console.log(this.form.value);
+      this.eventService.getCatalogueItemSuggestions(this.form.value).subscribe((data) => {
+        console.log(data);
+        let slicedObj = Object.fromEntries(Object.entries(data).slice(0, 3))
+        console.log(slicedObj);
+
+        for (let item in slicedObj) {
+          this.catalogueItems.push(item)
+        }
+        console.log(this.catalogueItems)
+      });
+      this.snackBar.openFromComponent(SnackbarComponent, {
+        duration: 3000,
+        verticalPosition: this.verticalPosition,
+      });
+    }
   }
 
   submit() {
-    this.snackBar.openFromComponent(SnackbarComponent, {
-      duration: 3000,
-      verticalPosition: this.verticalPosition,
-    });
+    // this.snackBar.openFromComponent(SnackbarComponent, {
+    //   duration: 3000,
+    //   verticalPosition: this.verticalPosition,
+    // });
   }
 }

@@ -5,7 +5,7 @@ import { HttpService } from 'src/service/http.service';
   providedIn: 'root'
 })
 export class EventService {
-  url = 'https://funky-eternal-alien.ngrok-free.app/predict';
+  url = 'https://localhost:65336/predict';
 
   constructor(public http: HttpService) { }
 

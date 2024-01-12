@@ -45,7 +45,15 @@ public partial class Program
     builder.Services.AddPredictionEnginePool<DataMastersML.ModelInput, DataMastersML.ModelOutput>()
 
         .FromFile("DataMastersML.zip");
-
+    builder.Services.AddCors(options =>
+    {
+      options.AddPolicy("AllowAllOrigins",
+        builder =>
+        {
+          builder.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader();
+        }
+        );
+    });
     builder.Services.AddEndpointsApiExplorer();
 
     builder.Services.AddSwaggerGen(c =>
@@ -69,7 +77,7 @@ public partial class Program
     });
 
     // Define prediction route & handler
-
+    app.UseCors("AllowAllOrigins");
     app.MapPost("/predict",
 
         async (PredictionEnginePool<DataMastersML.ModelInput, DataMastersML.ModelOutput> predictionEnginePool, DataMastersML.ModelInput input) =>
